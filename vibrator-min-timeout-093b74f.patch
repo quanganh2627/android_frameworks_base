@@ -1,0 +1,74 @@
+commit 093b74f61eda4ed93b21c5d7008b6ffc45e0f69e
+Author: Piotr Diop <piotrx.diop@intel.com>
+Date:   Wed Jan 15 11:27:24 2014 +0100
+
+    Get vibrator's minimum timeout from the HAL
+    
+    BZ: 170100
+    
+    Depending on the hardware type, vibrations under certain threshold cannot be
+    felt. This is mainly due to the vibrator slow response or the lag time.
+    
+    To compensate this, the VibratorService caps the lower limit for vibration
+    timeouts by the value returned from the HAL.
+    
+    Change-Id: I32509ae1d1480361c1b40415bbfe1d75491d906e
+    Category: aosp improvement
+    Domain: AOSP-Framework-CoreService
+    Origin: internal
+    Upstream-Candidate: yes
+    Signed-off-by: Piotr Diop <piotrx.diop@intel.com>
+
+diff --git a/services/java/com/android/server/VibratorService.java b/services/java/com/android/server/VibratorService.java
+index 28eb948..850d228 100644
+--- a/services/java/com/android/server/VibratorService.java
++++ b/services/java/com/android/server/VibratorService.java
+@@ -77,6 +77,12 @@ public class VibratorService extends IVibratorService.Stub
+     native static boolean vibratorExists();
+     native static void vibratorOn(long milliseconds);
+     native static void vibratorOff();
++    // Due to vibrator lag time, vibrations under certain threshold cannot be felt.
++    // To compensate this, the HAL returns the minimum timeout allowed for a short vibration.
++    native static long getVibratorMinTimeout();
++
++    // Get lower vibration timeout limit from HAL if any
++    private static final long mVibratorMinTimeout = getVibratorMinTimeout();
+ 
+     private class Vibration implements IBinder.DeathRecipient {
+         private final IBinder mToken;
+@@ -354,8 +360,9 @@ public class VibratorService extends IVibratorService.Stub
+         } catch (RemoteException e) {
+         }
+         if (vib.mTimeout != 0) {
+-            doVibratorOn(vib.mTimeout, vib.mUid);
+-            mH.postDelayed(mVibrationRunnable, vib.mTimeout);
++            long effectiveVibTimeout = Math.max(vib.mTimeout, mVibratorMinTimeout);
++            doVibratorOn(effectiveVibTimeout, vib.mUid);
++            mH.postDelayed(mVibrationRunnable, effectiveVibTimeout);
+         } else {
+             // mThread better be null here. doCancelVibrate should always be
+             // called before startNextVibrationLocked or startVibrationLocked.
+diff --git a/services/jni/com_android_server_VibratorService.cpp b/services/jni/com_android_server_VibratorService.cpp
+index 43f4ecc..a9b81d5 100644
+--- a/services/jni/com_android_server_VibratorService.cpp
++++ b/services/jni/com_android_server_VibratorService.cpp
+@@ -62,10 +62,19 @@ static void vibratorOff(JNIEnv *env, jobject clazz)
+     }
+ }
+ 
++static jlong getVibratorMinTimeout(JNIEnv *env, jobject clazz)
++{
++    if (gVibraModule) {
++         return (jlong)gVibraModule->get_vibrator_min_timeout();
++    }
++    return 0;
++}
++
+ static JNINativeMethod method_table[] = {
+     { "vibratorExists", "()Z", (void*)vibratorExists },
+     { "vibratorOn", "(J)V", (void*)vibratorOn },
+     { "vibratorOff", "()V", (void*)vibratorOff },
++    { "getVibratorMinTimeout", "()J", (void*)getVibratorMinTimeout },
+ };
+ 
+ int register_android_server_VibratorService(JNIEnv *env)

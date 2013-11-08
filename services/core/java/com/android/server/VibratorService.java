@@ -465,7 +465,7 @@ public class VibratorService extends IVibratorService.Stub
                 try {
                     mVibrateInputDevicesSetting = Settings.System.getIntForUser(
                             mContext.getContentResolver(),
-                            Settings.System.VIBRATE_INPUT_DEVICES, UserHandle.USER_CURRENT) > 0;
+                            Settings.System.VIBRATE_INPUT_DEVICES, UserHandle.USER_CURRENT_OR_SELF) > 0;
                 } catch (SettingNotFoundException snfe) {
                 }
 
