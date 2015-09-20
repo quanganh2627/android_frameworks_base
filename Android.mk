@@ -405,6 +405,8 @@ LOCAL_SRC_FILES += \
 	telephony/java/com/android/internal/telephony/IWapPushManager.aidl \
 	telephony/java/com/android/internal/telephony/ISub.aidl \
 	telephony/java/com/android/internal/telephony/IMms.aidl \
+	telephony/java/com/intel/internal/telephony/OemTelephony/IOemTelephony.aidl \
+	telephony/java/com/intel/internal/telephony/OemTelephony/ISrvccListener.aidl \
 	wifi/java/android/net/wifi/IWifiManager.aidl \
 	wifi/java/android/net/wifi/p2p/IWifiP2pManager.aidl \
 	wifi/java/android/net/wifi/IWifiScanner.aidl \
