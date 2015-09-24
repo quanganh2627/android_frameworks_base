@@ -1883,9 +1883,10 @@ public class PhoneWindowManager implements WindowManagerPolicy {
     private void updateKeyAssignments() {
         int activeHardwareKeys = mDeviceHardwareKeys;
 
-          if (!hasHwKeysEnabled()) {
+        if (!hasHwKeysEnabled()) {
             activeHardwareKeys = 0;
         }
+
         final boolean hasMenu = (activeHardwareKeys & KEY_MASK_MENU) != 0;
         final boolean hasHome = (activeHardwareKeys & KEY_MASK_HOME) != 0;
         final boolean hasAssist = (activeHardwareKeys & KEY_MASK_ASSIST) != 0;
@@ -2185,9 +2186,9 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                 updateEdgeGestureListenerState();
             }
 
-            mNavigationBarLeftInLandscape = Settings.System.getIntForUser(resolver,
-                    Settings.System.NAVBAR_LEFT_IN_LANDSCAPE, 0, UserHandle.USER_CURRENT) == 1;
-            
+             mNavigationBarLeftInLandscape = Settings.System.getInt(resolver,
+                     Settings.System.NAVBAR_LEFT_IN_LANDSCAPE, 0) == 1;           
+
             hasHwKeysEnabled();
             updateKeyAssignments();
 
@@ -7704,7 +7705,10 @@ public class PhoneWindowManager implements WindowManagerPolicy {
     // overridden by qemu.hw.mainkeys in the emulator.
     @Override
     public boolean hasNavigationBar() {
-    return mHasNavigationBar;
+        return mOverWriteHasNavigationBar
+            ? mHasNavigationBar
+            : mContext.getResources().getBoolean(
+                    com.android.internal.R.bool.config_showNavigationBar);
     }
 
     @Override

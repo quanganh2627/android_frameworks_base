@@ -26,12 +26,10 @@ import android.app.StatusBarManager;
 import android.app.admin.DevicePolicyManager;
 import android.app.trust.TrustManager;
 import android.content.BroadcastReceiver;
-import android.content.ComponentName;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.content.pm.PackageManager;
 import android.content.pm.UserInfo;
 import android.media.AudioAttributes;
 import android.media.AudioManager;
@@ -158,6 +156,8 @@ public class KeyguardViewMediator extends SystemUI {
             .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
             .setUsage(AudioAttributes.USAGE_ASSISTANCE_SONIFICATION)
             .build();
+
+    private static final String DECRYPT_STATE = "trigger_restart_framework";
 
     // used for handler messages
     private static final int SHOW = 2;
@@ -364,7 +364,7 @@ public class KeyguardViewMediator extends SystemUI {
 
     private final ArrayList<IKeyguardStateCallback> mKeyguardStateCallbacks = new ArrayList<>();
 
-    private int mCyrptKeeperEnabledState = -1;
+    private boolean mCryptKeeperEnabled = true;
 
     KeyguardUpdateMonitorCallback mUpdateCallback = new KeyguardUpdateMonitorCallback() {
 
@@ -411,16 +411,16 @@ public class KeyguardViewMediator extends SystemUI {
         public void onPhoneStateChanged(int phoneState) {
             synchronized (KeyguardViewMediator.this) {
                 if (TelephonyManager.CALL_STATE_IDLE == phoneState  // call ending
-                        && !mScreenOn                           // screen off
                         && mExternallyEnabled) {                // not disabled by any app
-
-                    // note: this is a way to gracefully reenable the keyguard when the call
-                    // ends and the screen is off without always reenabling the keyguard
-                    // each time the screen turns off while in call (and having an occasional ugly
-                    // flicker while turning back on the screen and disabling the keyguard again).
-                    if (DEBUG) Log.d(TAG, "screen is off and call ended, let's make sure the "
-                            + "keyguard is showing");
-                    doKeyguardLocked(null);
+                    if (!mScreenOn) {
+                        // note: this is a way to gracefully reenable the keyguard when the call
+                        // ends and the screen is off without always reenabling the keyguard
+                        // each time the screen turns off while in call (and having an occasional ugly
+                        // flicker while turning back on the screen and disabling the keyguard again).
+                        if (DEBUG) Log.d(TAG, "screen is off and call ended, let's make sure the "
+                                + "keyguard is showing");
+                        doKeyguardLocked(null);
+                    }
                 }
             }
         }
@@ -513,6 +513,7 @@ public class KeyguardViewMediator extends SystemUI {
             synchronized (KeyguardViewMediator.this) {
                 if (DBG_FINGERPRINT) {
                     Log.i(TAG, "onFingerprintStateChange(state=" + state + ")");
+<<<<<<< HEAD
                 }
                 if (!isShowingAndNotOccluded()) {
                     if (DBG_FINGERPRINT) {
@@ -520,6 +521,15 @@ public class KeyguardViewMediator extends SystemUI {
                     }
                     return;
                 }
+=======
+                }
+                if (!isShowingAndNotOccluded()) {
+                    if (DBG_FINGERPRINT) {
+                        Log.d(TAG, "kg not showing.");
+                    }
+                    return;
+                }
+>>>>>>> a10c2273add826bd9f8e115b2a9381653b6fee93
 
                 if (state == FingerprintManager.STATE_IDLE && mStartFingerAuthOnIdle) {
                     if (DBG_FINGERPRINT) {
@@ -1034,13 +1044,14 @@ public class KeyguardViewMediator extends SystemUI {
     }
 
     private boolean isCryptKeeperEnabled() {
-        if (mCyrptKeeperEnabledState == -1) {
-            PackageManager pm = mContext.getPackageManager();
-            mCyrptKeeperEnabledState = pm.getComponentEnabledSetting(
-                    new ComponentName(SETTINGS_PACKAGE, CRYPT_KEEPER_ACTIVITY));
+        if (!mCryptKeeperEnabled) {
+            // once it's disabled, it's disabled.
+            return false;
         }
-
-        return mCyrptKeeperEnabledState != PackageManager.COMPONENT_ENABLED_STATE_DISABLED;
+        final String state = SystemProperties.get("vold.decrypt");
+        mCryptKeeperEnabled = !"".equals(state) && !DECRYPT_STATE.equals(state);
+        if (DEBUG) Log.w(TAG, "updated crypt keeper state to: " + mCryptKeeperEnabled);
+        return mCryptKeeperEnabled;
     }
 
     public boolean isKeyguardBound() {
@@ -1233,7 +1244,12 @@ public class KeyguardViewMediator extends SystemUI {
                 updateActivityLockScreenState();
                 adjustStatusBarLocked();
 
+<<<<<<< HEAD
                 mHandler.obtainMessage(KEYGUARD_FINGERPRINT_AUTH, isOccluded ? 1 : 0, 0);
+=======
+                mHandler.obtainMessage(KEYGUARD_FINGERPRINT_AUTH,
+                        isOccluded ? 0 : 1, 0).sendToTarget();
+>>>>>>> a10c2273add826bd9f8e115b2a9381653b6fee93
             }
         }
     }

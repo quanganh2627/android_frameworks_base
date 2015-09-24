@@ -61,6 +61,8 @@ public class KeyguardStatusBarView extends RelativeLayout {
     private int mSystemIconsSwitcherHiddenExpandedMargin;
     private Interpolator mFastOutSlowInInterpolator;
 
+    private UserInfoController mUserInfoController;
+
     private int mShowCarrierLabel;
     private TextView mCarrierLabel;
 
@@ -174,13 +176,18 @@ public class KeyguardStatusBarView extends RelativeLayout {
         }
     }
 
+    private UserInfoController.OnUserInfoChangedListener mUserInfoChangedListener =
+            new UserInfoController.OnUserInfoChangedListener() {
+                @Override
+                public void onUserInfoChanged(String name, Drawable picture) {
+                    mMultiUserAvatar.setImageDrawable(picture);
+                }
+            };
+
+
     public void setUserInfoController(UserInfoController userInfoController) {
-        userInfoController.addListener(new UserInfoController.OnUserInfoChangedListener() {
-            @Override
-            public void onUserInfoChanged(String name, Drawable picture) {
-                mMultiUserAvatar.setImageDrawable(picture);
-            }
-        });
+        mUserInfoController = userInfoController;
+        userInfoController.addListener(mUserInfoChangedListener);
     }
 
     public void setKeyguardUserSwitcher(KeyguardUserSwitcher keyguardUserSwitcher) {
@@ -267,8 +274,18 @@ public class KeyguardStatusBarView extends RelativeLayout {
     }
 
     @Override
+<<<<<<< HEAD
     public void onDetachedFromWindow() {
         super.onDetachedFromWindow();
     }
 
+=======
+    protected void onDetachedFromWindow() {
+        super.onDetachedFromWindow();
+        if (mUserInfoController != null) {
+            mUserInfoController.removeListener(mUserInfoChangedListener);
+            mUserInfoController = null;
+        }
+    }
+>>>>>>> a10c2273add826bd9f8e115b2a9381653b6fee93
 }
