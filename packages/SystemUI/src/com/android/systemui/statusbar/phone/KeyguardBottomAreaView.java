@@ -725,14 +725,6 @@ public class KeyguardBottomAreaView extends FrameLayout implements View.OnClickL
         return mShortcutHelper.isTargetCustom(shortcut);
     }
 
-<<<<<<< HEAD
-    public void updateIconColor(int color) {
-         mCameraImageView.updateColorSettings(color);
-         mPhoneImageView.updateColorSettings(color);
-         mLockIcon.updateColorSettings(color);
-    }
-
-=======
     public void cleanup() {
         mUnlockMethodCache.removeListener(this);
     }
@@ -743,7 +735,6 @@ public class KeyguardBottomAreaView extends FrameLayout implements View.OnClickL
          mLockIcon.updateColorSettings(color);
     }
 
->>>>>>> a10c2273add826bd9f8e115b2a9381653b6fee93
     public void updateIndicationTextColor() {
         ContentResolver resolver = getContext().getContentResolver();
         int color = Settings.System.getInt(resolver,

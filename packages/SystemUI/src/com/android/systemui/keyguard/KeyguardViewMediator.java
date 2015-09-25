@@ -513,7 +513,6 @@ public class KeyguardViewMediator extends SystemUI {
             synchronized (KeyguardViewMediator.this) {
                 if (DBG_FINGERPRINT) {
                     Log.i(TAG, "onFingerprintStateChange(state=" + state + ")");
-<<<<<<< HEAD
                 }
                 if (!isShowingAndNotOccluded()) {
                     if (DBG_FINGERPRINT) {
@@ -521,15 +520,6 @@ public class KeyguardViewMediator extends SystemUI {
                     }
                     return;
                 }
-=======
-                }
-                if (!isShowingAndNotOccluded()) {
-                    if (DBG_FINGERPRINT) {
-                        Log.d(TAG, "kg not showing.");
-                    }
-                    return;
-                }
->>>>>>> a10c2273add826bd9f8e115b2a9381653b6fee93
 
                 if (state == FingerprintManager.STATE_IDLE && mStartFingerAuthOnIdle) {
                     if (DBG_FINGERPRINT) {
@@ -1244,12 +1234,8 @@ public class KeyguardViewMediator extends SystemUI {
                 updateActivityLockScreenState();
                 adjustStatusBarLocked();
 
-<<<<<<< HEAD
-                mHandler.obtainMessage(KEYGUARD_FINGERPRINT_AUTH, isOccluded ? 1 : 0, 0);
-=======
                 mHandler.obtainMessage(KEYGUARD_FINGERPRINT_AUTH,
                         isOccluded ? 0 : 1, 0).sendToTarget();
->>>>>>> a10c2273add826bd9f8e115b2a9381653b6fee93
             }
         }
     }

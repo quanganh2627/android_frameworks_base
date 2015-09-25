@@ -1,0 +1,1229 @@
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+[Audio.Media.CodecDelayMs]: [20]
+[Audiocomms.Audience.IsPresent]: [true]
+[alsa.mixer.builtinMic]: [Mic1]
+[alsa.mixer.defaultCard]: [cloverviewaudio]
+[alsa.mixer.defaultGain]: [1.0]
+[alsa.mixer.earpiece]: [Headphone]
+[alsa.mixer.headphone]: [Headphone]
+[alsa.mixer.headsetMic]: [Mic1]
+[alsa.mixer.headset]: [Headphone]
+[alsa.mixer.speaker]: [Speaker]
+[ap.interface]: [wlan0]
+[audio.device.name]: [cloverviewaudio]
+[audio.media_pb.decoder.dump]: [disable]
+[audio.media_pb.flinger.dump]: [disable]
+[audio.media_pb.parser.dump]: [disable]
+[audio.media_rc.flinger.dump]: [disable]
+[audio.offload.capabilities]: [0]
+[audio.offload.disable]: [0]
+[audio.offload.min.duration.secs]: [20]
+[bt.version.driver]: [V10.00.01]
+[dalvik.jit.code_cache_size]: [1048576]
+[dalvik.vm.dex2oat-Xms]: [64m]
+[dalvik.vm.dex2oat-Xmx]: [512m]
+[dalvik.vm.heapgrowthlimit]: [192m]
+[dalvik.vm.heapmaxfree]: [8m]
+[dalvik.vm.heapminfree]: [512k]
+[dalvik.vm.heapsize]: [512m]
+[dalvik.vm.heapstartsize]: [8m]
+[dalvik.vm.heaptargetutilization]: [0.75]
+[dalvik.vm.image-dex2oat-Xms]: [64m]
+[dalvik.vm.image-dex2oat-Xmx]: [64m]
+[dalvik.vm.isa.x86.features]: [default]
+[dalvik.vm.lockprof.threshold]: [500]
+[dalvik.vm.stack-trace-file]: [/data/anr/traces.txt]
+[debug.force_rtl]: [0]
+[dev.bootcomplete]: [1]
+[dhcp.wlan0.dns1]: [192.168.1.1]
+[dhcp.wlan0.dns2]: []
+[dhcp.wlan0.dns3]: []
+[dhcp.wlan0.dns4]: []
+[dhcp.wlan0.domain]: []
+[dhcp.wlan0.gateway]: [192.168.1.1]
+[dhcp.wlan0.ipaddress]: [192.168.1.31]
+[dhcp.wlan0.leasetime]: [86400]
+[dhcp.wlan0.mask]: [255.255.255.0]
+[dhcp.wlan0.mtu]: []
+[dhcp.wlan0.pid]: [6343]
+[dhcp.wlan0.reason]: [REBOOT]
+[dhcp.wlan0.result]: [ok]
+[dhcp.wlan0.server]: [192.168.1.1]
+[dhcp.wlan0.vendorInfo]: []
+[gps.version.driver]: [6.19.6.216527]
+[gsm.apn.sim.operator.numeric]: [45201]
+[gsm.current.phone-type]: [1,1]
+[gsm.defaultpdpcontext.active]: [true]
+[gsm.firmware.upload]: [ok]
+[gsm.net.interface]: [rmnet0]
+[gsm.network.mode0]: []
+[gsm.network.type]: [HSPA,Unknown]
+[gsm.nitz.time]: [1443073324004]
+[gsm.operator.alpha]: [VN Mobifone]
+[gsm.operator.iso-country]: [vn]
+[gsm.operator.isroaming]: [false,false]
+[gsm.operator.numeric]: [45201]
+[gsm.sim.operator.alpha]: []
+[gsm.sim.operator.iso-country]: [vn]
+[gsm.sim.operator.numeric]: [45201]
+[gsm.sim.pin1_count]: [2]
+[gsm.sim.pin2_count]: [3]
+[gsm.sim.puk1_count]: [10]
+[gsm.sim.puk2_count]: [10]
+[gsm.sim.state]: [READY,ABSENT]
+[gsm.sim1.present]: [1]
+[gsm.sim2.present]: [0]
+[gsm.version.baseband1]: [1515_1.4.66.0_0422]
+[gsm.version.baseband]: [1515_1.4.66.0_0422]
+[gsm.version.ril-impl]: [Intrinsyc Rapid-RIL M6.59 for Android 4.2 (Build September 17/2013)]
+[init.svc.adbd]: [running]
+[init.svc.akmd]: [running]
+[init.svc.akmd_a600cg]: [stopped]
+[init.svc.bcu_cpufreqrel]: [stopped]
+[init.svc.bootanim]: [stopped]
+[init.svc.config_init]: [stopped]
+[init.svc.console]: [running]
+[init.svc.crashlog_config]: [stopped]
+[init.svc.customize]: [stopped]
+[init.svc.debuggerd]: [running]
+[init.svc.dhcpcd_wlan0]: [running]
+[init.svc.dpst]: [running]
+[init.svc.drm]: [running]
+[init.svc.flash_recovery]: [stopped]
+[init.svc.fuse_MicroSD]: [running]
+[init.svc.gpscerd]: [stopped]
+[init.svc.gpsd]: [running]
+[init.svc.healthd]: [running]
+[init.svc.installd]: [running]
+[init.svc.intel_prop]: [stopped]
+[init.svc.keystore]: [running]
+[init.svc.lmkd]: [running]
+[init.svc.logd]: [running]
+[init.svc.media]: [running]
+[init.svc.mmgr]: [running]
+[init.svc.netd]: [running]
+[init.svc.nvmmanager]: [running]
+[init.svc.p2p_supplicant]: [running]
+[init.svc.proxy-tunneling]: [stopped]
+[init.svc.proxy]: [stopped]
+[init.svc.pvrsrvctl]: [stopped]
+[init.svc.rfkill_bt]: [stopped]
+[init.svc.ril-daemon2]: [running]
+[init.svc.ril-daemon]: [running]
+[init.svc.sdcard]: [running]
+[init.svc.servicemanager]: [running]
+[init.svc.su_daemon]: [restarting]
+[init.svc.surfaceflinger]: [running]
+[init.svc.sysinit]: [stopped]
+[init.svc.ueventd]: [running]
+[init.svc.upi_ug31xx]: [running]
+[init.svc.vold]: [running]
+[init.svc.watchdogd]: [running]
+[init.svc.zygote]: [running]
+[intel.dpst.alg]: [3]
+[intel.dpst.enable]: [1]
+[intel.dpst.userlevel]: [3]
+[keyguard.no_require_sim]: [true]
+[lpa.audiosetup.time]: [70]
+[lpa.deepbuffer.enable]: [1]
+[media.camera.facing]: [0]
+[media.sf.extractor-plugin]: [libffmpeg_extractor.so]
+[media.sf.omx-plugin]: [libffmpeg_omx.so]
+[net.bt.name]: [Android]
+[net.change]: [net.dns2]
+[net.dns1]: [192.168.1.1]
+[net.dns2]: []
+[net.hostname]: [android-41c1585d8eee0f67]
+[net.qtaguid_enabled]: [1]
+[net.tcp.default_init_rwnd]: [60]
+[net.tcp.delack.default]: [1]
+[net.tcp.delack.lte]: [8]
+[net.tcp.delack.wifi]: [20]
+[net.tcp.usercfg.default]: [0]
+[net.tcp.usercfg.lte]: [1]
+[net.tcp.usercfg.wifi]: [1]
+[offload.compress.device]: [2]
+[persist.asus.dclick]: [1]
+[persist.asus.glove]: [0]
+[persist.ims_support]: [0]
+[persist.modem.tlv.cpaction]: [tocp]
+[persist.radio.device.imei2]: [352251062967636]
+[persist.radio.device.imei]: [352251062967628]
+[persist.radio.multisim.config]: [dsds]
+[persist.service.thermal]: [1]
+[persist.sys.adb.root]: [1]
+[persist.sys.country]: [US]
+[persist.sys.dalvik.vm.lib.2]: [libart.so]
+[persist.sys.dun.override]: [0]
+[persist.sys.isUsbOtgEnabled]: [1]
+[persist.sys.language]: [en]
+[persist.sys.localevar]: []
+[persist.sys.media.use-awesome]: [false]
+[persist.sys.profiler_ms]: [0]
+[persist.sys.recovery_update]: [false]
+[persist.sys.root_access]: [3]
+[persist.sys.timezone]: [Asia/Saigon]
+[persist.sys.usb.config]: [mtp,adb]
+[persist.system.at-proxy.mode]: [0]
+[persist.tel.hot_swap.support]: [true]
+[persist.thermal.debug.xml]: [0]
+[persist.thermal.display.msg]: [1]
+[persist.thermal.display.vibra]: [1]
+[persist.thermal.shutdown.msg]: [1]
+[persist.thermal.shutdown.tone]: [1]
+[persist.thermal.shutdown.vibra]: [1]
+[ril.coredumpwarning.enable]: [1]
+[ril.ecclist1]: [112,911,000,08,110,118,119,999]
+[ril.ecclist]: [112,911]
+[rild.libpath]: [/system/lib/librapid-ril-core.so]
+[ro.adb.secure]: [0]
+[ro.allow.mock.location]: [1]
+[ro.baseband]: [unknown]
+[ro.blankphone_id]: [1]
+[ro.board.platform]: [clovertrail]
+[ro.boot.bootmedia]: [sdcard]
+[ro.boot.ftm]: [0]
+[ro.boot.hardware]: [redhookbay]
+[ro.boot.min.cap]: [0]
+[ro.boot.mode]: [main]
+[ro.boot.selinux]: [permissive]
+[ro.boot.serialno]: [Medfield06AA385D]
+[ro.boot.spid]: [0000:0000:0003:0002:0000:0021]
+[ro.boot.wakesrc]: [01]
+[ro.bootloader]: [unknown]
+[ro.bootmode]: [main]
+[ro.bt.bdaddr_path]: [/config/bt/bd_addr.conf]
+[ro.bt.conf_file]: [/system/etc/bluetooth/bt_cm_a500cg.conf]
+[ro.build.characteristics]: [default]
+[ro.build.date.utc]: [1443002255]
+[ro.build.date]: [Wed Sep 23 16:57:35 ICT 2015]
+[ro.build.description]: [cm_a500cg-userdebug 5.1.1 LVY48F 2fb554195b test-keys]
+[ro.build.display.id]: [cm_a500cg-userdebug 5.1.1 LVY48F 2fb554195b test-keys]
+[ro.build.fingerprint]: [asus/cm_a500cg/ASUS_T00F:5.1.1/LVY48F/2fb554195b:userdebug/test-keys]
+[ro.build.flavor]: [cm_a500cg-userdebug]
+[ro.build.host]: [Builduntu]
+[ro.build.id]: [LVY48F]
+[ro.build.product]: [ASUS_T00F]
+[ro.build.selinux]: [1]
+[ro.build.tags]: [test-keys]
+[ro.build.type]: [userdebug]
+[ro.build.user]: [quanganh2627]
+[ro.build.version.all_codenames]: [REL]
+[ro.build.version.codename]: [REL]
+[ro.build.version.incremental]: [2fb554195b]
+[ro.build.version.release]: [5.1.1]
+[ro.build.version.sdk]: [22]
+[ro.camera.sound.forced]: [0]
+[ro.carrier]: [unknown]
+[ro.cm.build.version.plat.rev]: [0]
+[ro.cm.build.version.plat.sdk]: [2]
+[ro.cm.device]: [a500cg]
+[ro.cm.display.version]: [Resurrection-Remix-LP-v5.5.5-20150923-a500cg]
+[ro.cmlegal.url]: [https://cyngn.com/legal/privacy-policy]
+[ro.com.android.dataroaming]: [false]
+[ro.com.android.dateformat]: [MM-dd-yyyy]
+[ro.com.android.wifi-watchlist]: [GoogleGuest]
+[ro.com.google.clientidbase]: [android-google]
+[ro.config.alarm_alert]: [Helium.ogg]
+[ro.config.low_ram]: [false]
+[ro.config.notification_sound]: [Argon.ogg]
+[ro.config.personality]: [compat_layout]
+[ro.config.ringtone]: [C.Y.E-Resurrection.mp3]
+[ro.config.versatility]: [CHN]
+[ro.crypto.fuse_sdcard]: [true]
+[ro.crypto.state]: [unencrypted]
+[ro.dalvik.vm.isa.arm]: [x86]
+[ro.dalvik.vm.native.bridge]: [libhoudini.so]
+[ro.debuggable]: [1]
+[ro.enable.native.bridge.exec]: [1]
+[ro.factorytest]: [0]
+[ro.fmrx.sound.forced]: [1]
+[ro.gnss.sv.status]: [true]
+[ro.hardware]: [redhookbay]
+[ro.hwui.drop_shadow_cache_size]: [6]
+[ro.hwui.gradient_cache_size]: [1]
+[ro.hwui.layer_cache_size]: [48]
+[ro.hwui.path_cache_size]: [32]
+[ro.hwui.r_buffer_cache_size]: [8]
+[ro.hwui.text_large_cache_height]: [512]
+[ro.hwui.text_large_cache_width]: [2048]
+[ro.hwui.text_small_cache_height]: [1024]
+[ro.hwui.text_small_cache_width]: [1024]
+[ro.hwui.texture_cache_flushrate]: [0.4]
+[ro.hwui.texture_cache_size]: [24.0f]
+[ro.ime.lowmemory]: [false]
+[ro.intel.corp.email]: [1]
+[ro.isn]: [N0CY1421MB0322752]
+[ro.opengles.version]: [131072]
+[ro.product.board]: [clovertrail]
+[ro.product.brand]: [asus]
+[ro.product.cpu.abi2]: [armeabi-v7a]
+[ro.product.cpu.abi]: [x86]
+[ro.product.cpu.abilist32]: [x86,armeabi-v7a,armeabi]
+[ro.product.cpu.abilist64]: []
+[ro.product.cpu.abilist]: [x86,armeabi-v7a,armeabi]
+[ro.product.device]: [ASUS_T00F]
+[ro.product.locale.language]: [en]
+[ro.product.locale.region]: [US]
+[ro.product.manufacturer]: [asus]
+[ro.product.model]: [ASUS_T00F]
+[ro.product.name]: [cm_a500cg]
+[ro.rebootchargermode]: [true]
+[ro.resurrection.version]: [Resurrection-Remix-LP-5.0-20150923]
+[ro.revision]: [0]
+[ro.ril.status.polling.enable]: [0]
+[ro.rommanager.developerid]: [cyanogenmod]
+[ro.rr.version]: [a500cg]
+[ro.rr_modversion]: [Resurrection-Remix-LP-v5.5.5]
+[ro.runtime.firstboot]: [1443048844557]
+[ro.secure]: [0]
+[ro.serialno]: [Medfield06AA385D]
+[ro.setupwizard.enterprise_mode]: [1]
+[ro.setupwizard.gservices_delay]: [-1]
+[ro.setupwizard.network_required]: [false]
+[ro.sf.lcd_density]: [320]
+[ro.spid.gps.tty]: [ttyMFD2]
+[ro.swconf.info]: [DSDS_A500CG]
+[ro.telephony.default_network]: [0]
+[ro.thermal.ituxversion]: [3.0]
+[ro.url.legal.android_privacy]: [http://www.google.com/intl/%s/mobile/android/basic/privacy.html]
+[ro.url.legal]: [http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html]
+[ro.wifi.channels]: []
+[ro.zygote]: [zygote32]
+[rr.ota.version]: [20150923]
+[rs.gpu.filterscript]: [0]
+[rs.gpu.renderscript]: [0]
+[rs.gpu.rsIntrinsic]: [0]
+[selinux.reload_policy]: [1]
+[service.adb.root]: [1]
+[service.amtl1.cfg]: [clovertrail_XMM_6360]
+[service.bootanim.exit]: [1]
+[supolicy.loaded]: [1]
+[sys.boot_completed]: [1]
+[sys.charger.connected]: [1]
+[sys.ia32.version]: [00.57]
+[sys.ifwi.version]: [59.A1]
+[sys.kernel.version]: [3.10.20-i386_ctp-264802-g0006f34]
+[sys.perf.profile]: [1]
+[sys.punit.version]: [A0.35]
+[sys.scu.version]: [20.3E]
+[sys.settings_global_version]: [20]
+[sys.settings_secure_version]: [11]
+[sys.settings_system_version]: [22]
+[sys.supp_ia32.version]: [00.57]
+[sys.sysctl.extra_free_kbytes]: [10800]
+[sys.sysctl.tcp_def_init_rwnd]: [60]
+[sys.usb.config]: [mtp,adb]
+[sys.usb.state]: [mtp,adb]
+[sys.valhooks.version]: [59.A0]
+[sys.watchdog.previous.counter]: [0]
+[system.at-proxy.mode]: [0]
+[vold.pfe]: [deactivated]
+[vold.post_fs_data_done]: [1]
+[widi.media.extmode.enable]: [false]
+[wifi.interface]: [wlan0]
+[wifi.version.driver]: [5.90.195.89.38]
+[wlan.driver.status]: [ok]
+uid=2000(shell) gid=2000(shell) groups=1003(graphics),1004(input),1007(log),1011(adb),1015(sdcard_rw),1028(sdcard_r),3001(net_bt_admin),3002(net_bt),3003(inet),3006(net_bw_stats) context=u:r:shell:s0
+BusyBox v1.22.1 bionic (2015-09-23 15:17 +0700) multi-call binary.
+BusyBox is copyrighted by many authors between 1998-2012.
+Licensed under GPLv2. See source distribution for detailed
+copyright notices. Merged for bionic by tpruvot@github
+
+Usage: busybox [function [arguments]...]
+   or: busybox --list[-full]
+   or: busybox --install [-s] [DIR]
+   or: function [arguments]...
+
+	BusyBox is a multi-call binary that combines many common Unix
+	utilities into a single executable.  Most people will create a
+	link to busybox for each function they wish to use and BusyBox
+	will act like whatever it was invoked as.
+
+Currently defined functions:
+	[, [[, adjtimex, arp, ash, awk, base64, basename, bbconfig, blkid,
+	blockdev, brctl, bunzip2, bzcat, bzip2, cal, cat, catv, chattr, chcon,
+	chgrp, chmod, chown, chroot, chvt, clear, cmp, comm, cp, cpio, crond,
+	crontab, cut, date, dc, dd, deallocvt, depmod, devmem, df, diff,
+	dirname, dmesg, dnsd, dos2unix, du, echo, ed, egrep, env, expand, expr,
+	false, fbsplash, fdisk, fgconsole, fgrep, find, findfs, flash_lock,
+	flash_unlock, flashcp, flock, fold, free, freeramdisk, fstrim, fsync,
+	ftpget, ftpput, fuser, getenforce, getopt, getsebool, grep, groups,
+	gunzip, gzip, halt, head, hexdump, hwclock, id, ifconfig, inetd,
+	insmod, install, ionice, iostat, ip, kill, killall, killall5, less, ln,
+	losetup, ls, lsattr, lsmod, lsof, lspci, lsusb, lzcat, lzma, lzop,
+	lzopcat, man, matchpathcon, md5sum, mesg, mkdir, mkdosfs, mke2fs,
+	mkfifo, mkfs.ext2, mkfs.vfat, mknod, mkswap, mktemp, modinfo, modprobe,
+	more, mount, mountpoint, mpstat, mv, nanddump, nandwrite, nbd-client,
+	nc, netstat, nice, nmeter, nohup, nslookup, ntpd, od, openvt, patch,
+	pgrep, pidof, ping, pipe_progress, pkill, pmap, poweroff, printenv,
+	printf, ps, pstree, pwd, pwdx, rdate, rdev, readlink, realpath, reboot,
+	renice, reset, resize, restorecon, rev, rm, rmdir, rmmod, route,
+	run-parts, runcon, rx, sed, selinuxenabled, seq, sestatus, setconsole,
+	setenforce, setfiles, setkeycodes, setsebool, setserial, setsid, sh,
+	sha1sum, sha256sum, sha3sum, sha512sum, sleep, smemcap, sort, split,
+	stat, strings, stty, sum, swapoff, swapon, switch_root, sync, sysctl,
+	tac, tail, tar, taskset, tee, telnet, telnetd, test, tftp, tftpd, time,
+	timeout, top, touch, tr, traceroute, true, ttysize, tune2fs, umount,
+	uname, uncompress, unexpand, uniq, unix2dos, unlzma, unlzop, unxz,
+	unzip, uptime, usleep, uudecode, uuencode, vi, watch, wc, wget, which,
+	whoami, xargs, xz, xzcat, yes, zcat
+
+2.45:SUPERSU
+245
+SuperSU v2.45 (aosp:x86) - Copyright (C) 2012-2015 - Chainfire
+
+Usage: su [options] [--] [-] [LOGIN] [--] [args...]
+
+Options:
+  -c, --command COMMAND    pass COMMAND to the invoked shell
+  -cn, --context CONTEXT   switch to SELinux CONTEXT before invoking
+  -h, --help               display this help message and exit
+  -, -l, --login           pretend the shell to be a login shell
+  -m, -p,
+  -mm, --mount-master      connect to a shell that can manipulate the
+                           master mount namespace - requires su to be
+                           running as daemon, must be first parameter
+  --preserve-environment   do not change environment variables
+  -s, --shell SHELL        use SHELL instead of the default detected shell
+  -v, --version            display public version and exit
+  -V                       display internal version and exit
+
+Usage#2: su LOGIN COMMAND...
+
+Usage#3: su {-d|--daemon|-ad|--auto-daemon|-r|--reload}
+  auto version starts daemon only on SDK >= 18 or
+  if SELinux is set to enforcing
+  (call only from a root session)
+
+Usage#4: su {-i|--install|-u|--uninstall}
+  perform post-install / pre-uninstall maintenance
+  (call only from a root session)
+
+Usage#5: su --id pid
+  identify eldest parent of pid
+  (call only from a root session)
+version_code: 245
+version_name: 2.45:SUPERSU
+version_arch: aosp:x86
+sdk: 22
+daemon_sdk: 1
+multiuser_sdk: 1
+multiuser_userid: 0
+multiuser_username: (null)
+selinux_present: 1
+selinux_enforcing: 0
+context[base]: FAIL
+context[u:r:shell:s0]: u:r:init:s0
+context[u:r:shell:s0-->base]: u:r:init:s0
+context[u:r:shell:s0-->u:r:system:s0]: u:r:init:s0
+context[u:r:shell:s0-->u:r:system_server:s0]: u:r:init:s0
+context[u:r:shell:s0-->u:r:system_app:s0]: u:r:init:s0
+context[u:r:shell:s0-->u:r:platform_app:s0]: u:r:init:s0
+context[u:r:shell:s0-->u:r:untrusted_app:s0]: u:r:init:s0
+context[u:r:shell:s0-->u:r:recovery:s0]: u:r:init:s0
+context[u:r:system:s0]: u:r:init:s0
+context[u:r:system:s0-->base]: u:r:init:s0
+context[u:r:system:s0-->u:r:shell:s0]: u:r:init:s0
+context[u:r:system:s0-->u:r:system_server:s0]: u:r:init:s0
+context[u:r:system:s0-->u:r:system_app:s0]: u:r:init:s0
+context[u:r:system:s0-->u:r:platform_app:s0]: u:r:init:s0
+context[u:r:system:s0-->u:r:untrusted_app:s0]: u:r:init:s0
+context[u:r:system:s0-->u:r:recovery:s0]: u:r:init:s0
+context[u:r:system_server:s0]: u:r:init:s0
+context[u:r:system_server:s0-->base]: u:r:init:s0
+context[u:r:system_server:s0-->u:r:shell:s0]: u:r:init:s0
+context[u:r:system_server:s0-->u:r:system:s0]: u:r:init:s0
+context[u:r:system_server:s0-->u:r:system_app:s0]: u:r:init:s0
+context[u:r:system_server:s0-->u:r:platform_app:s0]: u:r:init:s0
+context[u:r:system_server:s0-->u:r:untrusted_app:s0]: u:r:init:s0
+context[u:r:system_server:s0-->u:r:recovery:s0]: u:r:init:s0
+context[u:r:system_app:s0]: u:r:init:s0
+context[u:r:system_app:s0-->base]: u:r:init:s0
+context[u:r:system_app:s0-->u:r:shell:s0]: u:r:init:s0
+context[u:r:system_app:s0-->u:r:system:s0]: u:r:init:s0
+context[u:r:system_app:s0-->u:r:system_server:s0]: u:r:init:s0
+context[u:r:system_app:s0-->u:r:platform_app:s0]: u:r:init:s0
+context[u:r:system_app:s0-->u:r:untrusted_app:s0]: u:r:init:s0
+context[u:r:system_app:s0-->u:r:recovery:s0]: u:r:init:s0
+context[u:r:platform_app:s0]: u:r:init:s0
+context[u:r:platform_app:s0-->base]: u:r:init:s0
+context[u:r:platform_app:s0-->u:r:shell:s0]: u:r:init:s0
+context[u:r:platform_app:s0-->u:r:system:s0]: u:r:init:s0
+context[u:r:platform_app:s0-->u:r:system_server:s0]: u:r:init:s0
+context[u:r:platform_app:s0-->u:r:system_app:s0]: u:r:init:s0
+context[u:r:platform_app:s0-->u:r:untrusted_app:s0]: u:r:init:s0
+context[u:r:platform_app:s0-->u:r:recovery:s0]: u:r:init:s0
+context[u:r:untrusted_app:s0]: u:r:init:s0
+context[u:r:untrusted_app:s0-->base]: u:r:init:s0
+context[u:r:untrusted_app:s0-->u:r:shell:s0]: u:r:init:s0
+context[u:r:untrusted_app:s0-->u:r:system:s0]: u:r:init:s0
+context[u:r:untrusted_app:s0-->u:r:system_server:s0]: u:r:init:s0
+context[u:r:untrusted_app:s0-->u:r:system_app:s0]: u:r:init:s0
+context[u:r:untrusted_app:s0-->u:r:platform_app:s0]: u:r:init:s0
+context[u:r:untrusted_app:s0-->u:r:recovery:s0]: u:r:init:s0
+context[u:r:recovery:s0]: u:r:init:s0
+context[u:r:recovery:s0-->base]: u:r:init:s0
+context[u:r:recovery:s0-->u:r:shell:s0]: u:r:init:s0
+context[u:r:recovery:s0-->u:r:system:s0]: u:r:init:s0
+context[u:r:recovery:s0-->u:r:system_server:s0]: u:r:init:s0
+context[u:r:recovery:s0-->u:r:system_app:s0]: u:r:init:s0
+context[u:r:recovery:s0-->u:r:platform_app:s0]: u:r:init:s0
+context[u:r:recovery:s0-->u:r:untrusted_app:s0]: u:r:init:s0
+-rwxr-xr-x root     root       253796 2015-09-24 02:05 daemonsu
+lrwxrwxrwx root     root              2015-09-23 21:24 lsusb -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 md5sum -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 sha1sum -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 sha256sum -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 sha3sum -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 sha512sum -> busybox
+-rwxr-xr-x root     root       253796 2015-09-24 02:05 su
+-rwxr-xr-x root     root       253796 2015-09-24 02:05 sugote
+-rwxr-xr-x root     root       395004 2015-09-24 02:05 sugote-mksh
+lrwxrwxrwx root     root              2015-09-23 21:24 sum -> busybox
+-rwxr-xr-x root     root        29912 2015-09-24 02:05 supolicy
+-rwxr-xr-x root     root              u:object_r:system_file:s0 daemonsu
+lrwxrwxrwx root     root              u:object_r:system_file:s0 lsusb -> busybox
+lrwxrwxrwx root     root              u:object_r:system_file:s0 md5sum -> busybox
+lrwxrwxrwx root     root              u:object_r:system_file:s0 sha1sum -> busybox
+lrwxrwxrwx root     root              u:object_r:system_file:s0 sha256sum -> busybox
+lrwxrwxrwx root     root              u:object_r:system_file:s0 sha3sum -> busybox
+lrwxrwxrwx root     root              u:object_r:system_file:s0 sha512sum -> busybox
+-rwxr-xr-x root     root              u:object_r:system_file:s0 su
+-rwxr-xr-x root     root              u:object_r:zygote_exec:s0 sugote
+-rwxr-xr-x root     root              u:object_r:system_file:s0 sugote-mksh
+lrwxrwxrwx root     root              u:object_r:system_file:s0 sum -> busybox
+-rwxr-xr-x root     root              u:object_r:system_file:s0 supolicy
+-rwxr-xr-x root     shell             u:object_r:system_file:s0 toolbox
+-rwxr-xr-x root     shell       13468 2008-08-01 19:00 GammaSetting
+-rwxr-xr-x root     shell        9372 2008-08-01 19:00 HSVSetting
+-rwxr-xr-x root     shell       79096 2008-08-01 19:00 a600cg_akmd09911
+-rwxr-xr-x root     shell      995632 2008-08-01 19:00 aapt
+-rwxr-xr-x root     shell        7389 2008-08-01 19:00 activate_trace_modem
+-rwxr-xr-x root     shell      194800 2008-08-01 19:00 adb
+-rwxr-xr-x root     shell       66808 2008-08-01 19:00 akmd09911
+-rwxr-xr-x root     shell         210 2008-08-01 19:00 am
+lrwxrwxrwx root     root              2015-09-24 02:05 app_process -> /system/xbin/daemonsu
+lrwxrwxrwx root     root              2015-09-24 02:05 app_process32 -> /system/xbin/daemonsu
+-rwxr-xr-x root     shell       17680 2008-08-01 19:00 app_process32_original
+-rwxr-xr-x root     shell       17680 2015-09-24 02:05 app_process_init
+-rwxr-xr-x root     shell       65896 2008-08-01 19:00 applypatch
+-rwxr-xr-x root     shell         213 2008-08-01 19:00 appops
+-rwxr-xr-x root     shell         215 2008-08-01 19:00 appwidget
+-rwxr-xr-x root     shell       21716 2008-08-01 19:00 asuslogcat
+-rwxr-xr-x root     shell       26108 2008-08-01 19:00 atrace
+-rwxr-xr-x root     shell       25824 2008-08-01 19:00 auditd
+-rwxr-xr-x root     shell       21856 2008-08-01 19:00 bcc
+-rwxr-xr-x root     shell        9372 2008-08-01 19:00 bcu_cpufreqrel
+-rwxr-xr-x root     shell       17864 2008-08-01 19:00 bdt
+-rwxr-xr-x root     shell       13608 2008-08-01 19:00 blkid
+-rwxr-xr-x root     shell         199 2008-08-01 19:00 bmgr
+-rwxr-xr-x root     shell       46356 2008-08-01 19:00 bootanimation
+-rwxr-xr-x root     shell         156 2008-08-01 19:00 bu
+-rwxr-xr-x root     shell        5348 2008-08-01 19:00 bugreport
+lrwxrwxrwx root     root              2015-09-23 21:24 cat -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 chcon -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 chmod -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 chown -> toolbox
+-rwxr-xr-x root     shell       58876 2008-08-01 19:00 clatd
+lrwxrwxrwx root     root              2015-09-23 21:24 clear -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 cmp -> toolbox
+-rwxr-xr-x root     shell        4818 2008-08-01 19:00 configure_trace_modem
+-rwxr-xr-x root     shell         207 2008-08-01 19:00 content
+lrwxrwxrwx root     root              2015-09-23 21:24 cp -> toolbox
+-rwxr-xr-x root     shell      198032 2008-08-01 19:00 crashlogd
+-rwxr-xr-x root     shell       87296 2008-08-01 19:00 curl
+-rwxr-xr-x root     shell       34060 2008-08-01 19:00 customize_service
+lrwxrwxrwx root     root              2015-09-23 21:24 dalvikvm -> dalvikvm32
+-rwxr-xr-x root     shell       13540 2008-08-01 19:00 dalvikvm32
+lrwxrwxrwx root     root              2015-09-23 21:24 date -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 dd -> toolbox
+-rwxr-xr-x root     shell       38116 2008-08-01 19:00 debuggerd
+-rwxr-xr-x root     shell        1011 2008-08-01 19:00 del_hist.sh
+-rwxr-xr-x root     shell         976 2008-08-01 19:00 del_log.sh
+-rwxr-xr-x root     shell      128332 2008-08-01 19:00 dex2oat
+lrwxrwxrwx root     root              2015-09-23 21:24 df -> toolbox
+-rwxr-xr-x root     shell         532 2008-08-01 19:00 dhcp_lease_evt.sh
+-rwxr-xr-x root     shell      169404 2008-08-01 19:00 dhcpcd
+lrwxrwxrwx root     root              2015-09-23 21:24 dmesg -> toolbox
+-rwxr-xr-x root     shell      212264 2008-08-01 19:00 dnsmasq
+-rwxr-xr-x root     shell         156 2008-08-01 19:00 dpm
+-rwxr-xr-x root     shell        5276 2008-08-01 19:00 dpstmgr
+-rwxr-xr-x root     shell      103696 2008-08-01 19:00 drmserver
+-rwxr-xr-x root     shell      353556 2008-08-01 19:00 droidboot
+lrwxrwxrwx root     root              2015-09-23 21:24 du -> toolbox
+-rwxr-xr-x root     shell       54568 2008-08-01 19:00 dumpstate
+-rwxr-xr-x root     shell         937 2008-08-01 19:00 dumpstate_dropbox.sh
+-rwxr-xr-x root     shell        9468 2008-08-01 19:00 dumpsys
+-rwxr-xr-x root     shell      248880 2008-08-01 19:00 e2fsck
+-rwxr-xr-x root     shell       50384 2008-08-01 19:00 fdcmts
+-rwxr-xr-x root     shell       21796 2008-08-01 19:00 fg_conf
+lrwxrwxrwx root     root              2015-09-23 21:24 fsck.exfat -> mount.exfat
+-rwxr-xr-x root     shell       87364 2008-08-01 19:00 fsck.f2fs
+-rwxr-xr-x root     shell       58656 2008-08-01 19:00 fsck_msdos
+-rwxr-xr-x root     shell       46892 2008-08-01 19:00 gatt_testtool
+-rwxr-xr-x root     shell      623400 2008-08-01 19:00 gdbserver
+lrwxrwxrwx root     root              2015-09-23 21:24 getenforce -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 getevent -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 getprop -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 getsebool -> toolbox
+-rwxr-xr-x root     shell       42264 2008-08-01 19:00 gpscerd
+-rwxr-xr-x root     shell     4037940 2008-08-01 19:00 gpsd
+-rwxr-xr-x root     shell      214724 2008-08-01 19:00 gpslogd
+lrwxrwxrwx root     root              2015-09-23 21:24 grep -> toolbox
+-rwxr-xr-x root     shell        9440 2008-08-01 19:00 gzip
+lrwxrwxrwx root     root              2015-09-23 21:24 hd -> toolbox
+-rwxr-xr-x root     shell      740188 2008-08-01 19:00 hostapd
+-rwxr-xr-x root     shell       46672 2008-08-01 19:00 hostapd_cli
+-rwxr-xr-x root     shell     1860180 2008-08-01 19:00 houdini
+lrwxrwxrwx root     root              2015-09-23 21:24 id -> toolbox
+-rwxr-xr-x root     shell       34056 2008-08-01 19:00 idmap
+lrwxrwxrwx root     root              2015-09-23 21:24 ifconfig -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 iftop -> toolbox
+-rwxr-xr-x root     shell         194 2008-08-01 19:00 ime
+-rwxr-xr-x root     shell         201 2008-08-01 19:00 input
+lrwxrwxrwx root     root              2015-09-23 21:24 insmod -> toolbox
+lrwxrwxrwx root     root              2015-09-24 02:05 install-recovery.sh -> /system/etc/install-recovery.sh
+-rwxr-xr-x root     shell       71220 2008-08-01 19:00 installd
+lrwxrwxrwx root     root              2015-09-23 21:24 ioctl -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 ionice -> toolbox
+-rwxr-xr-x root     shell      255572 2008-08-01 19:00 ip
+-rwxr-xr-x root     shell      475632 2008-08-01 19:00 ip6tables
+-rwxr-xr-x root     shell      467376 2008-08-01 19:00 iptables
+-rwxr-xr-x root     shell       99828 2008-08-01 19:00 keystore
+-rwxr-xr-x root     shell       13656 2008-08-01 19:00 keystore_cli
+lrwxrwxrwx root     root              2015-09-23 21:24 kill -> toolbox
+-rwxr-xr-x root     shell       17952 2008-08-01 19:00 l2test_ertm
+-rwxr-xr-x root     shell      148291 2008-08-01 19:00 linker
+-rwxr-xr-x root     shell       17688 2008-08-01 19:00 lmkd
+lrwxrwxrwx root     root              2015-09-23 21:24 ln -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 load_policy -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 log -> toolbox
+-rwxr-xr-x root     shell       17688 2008-08-01 19:00 logcat
+-rwxr-xr-x root     shell        5276 2008-08-01 19:00 logcommand
+-rwxr-xr-x root     shell        9372 2008-08-01 19:00 logcontrol
+-rwxr-xr-x root     shell       58644 2008-08-01 19:00 logd
+-rwxr-xr-x root     shell       13524 2008-08-01 19:00 logkmsg
+-rwxr-xr-x root     shell       17700 2008-08-01 19:00 logwrapper
+lrwxrwxrwx root     root              2015-09-23 21:24 ls -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 lsmod -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 lsof -> toolbox
+-rwxr-xr-x root     shell       13584 2008-08-01 19:00 make_ext4fs
+lrwxrwxrwx root     root              2015-09-23 21:24 md5 -> toolbox
+-rwxr-xr-x root     shell      792076 2008-08-01 19:00 mdnsd
+-rwxr-xr-x root     shell         210 2008-08-01 19:00 media
+-rwxr-xr-x root     shell       17680 2008-08-01 19:00 mediaserver
+-rwxr-xr-x root     shell       26128 2008-08-01 19:00 miu-app
+lrwxrwxrwx root     root              2015-09-23 21:24 mkdir -> toolbox
+-rwxr-xr-x root     shell       54592 2008-08-01 19:00 mke2fs
+-rwxr-xr-x root     shell      293632 2008-08-01 19:00 mkexfat
+lrwxrwxrwx root     root              2015-09-23 21:24 mkfs.exfat -> mount.exfat
+lrwxrwxrwx root     root              2015-09-23 21:24 mknod -> toolbox
+-rwxr-xr-x root     shell      386316 2008-08-01 19:00 mkntfs
+lrwxrwxrwx root     root              2015-09-23 21:24 mkswap -> toolbox
+-rwxr-xr-x root     shell      140496 2008-08-01 19:00 mmgr
+-rwxr-xr-x root     shell        1238 2008-08-01 19:00 monitor_crashenv
+-rwxr-xr-x root     shell         217 2008-08-01 19:00 monkey
+lrwxrwxrwx root     root              2015-09-23 21:24 mount -> toolbox
+-rwxr-xr-x root     shell      257332 2008-08-01 19:00 mount.exfat
+-rwxr-xr-x root     shell      419104 2008-08-01 19:00 msvdx_bin
+-rwxr-xr-x root     shell       21948 2008-08-01 19:00 mtpd
+-rwxr-xr-x root     shell       42192 2008-08-01 19:00 mts
+lrwxrwxrwx root     root              2015-09-23 21:24 mv -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 nandread -> toolbox
+-rwxr-xr-x root     shell        9516 2008-08-01 19:00 ndc
+-rwxr-s--- root     inet         9560 2008-08-01 19:00 netcfg
+-rwxr-xr-x root     shell      202388 2008-08-01 19:00 netd
+lrwxrwxrwx root     root              2015-09-23 21:24 netstat -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 newfs_msdos -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 nohup -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 notify -> toolbox
+-rwxr-xr-x root     shell      481136 2008-08-01 19:00 ntfs-3g
+-rwxr-xr-x root     shell      376428 2008-08-01 19:00 ntfsck
+-rwxr-xr-x root     shell      247284 2008-08-01 19:00 ntfsfix
+-rwxr-xr-x root     shell      150552 2008-08-01 19:00 nvm_server
+-rwxr-xr-x root     shell      136552 2008-08-01 19:00 oatdump
+-rwxr-xr-x root     shell      500688 2008-08-01 19:00 openssl
+-rwxr-xr-x root     shell         252 2008-08-01 19:00 parameter
+-rwxr-xr-x root     shell      169408 2008-08-01 19:00 patchoat
+-rwxr-xr-x root     shell      137728 2008-08-01 19:00 pclink_connect
+-rwxr-xr-x root     root        38468 2008-08-01 19:00 ping
+-rwxr-xr-x root     shell       42844 2008-08-01 19:00 ping6
+-rwxr-xr-x root     shell         191 2008-08-01 19:00 pm
+-rwxr-xr-x root     shell       21892 2008-08-01 19:00 pngtest
+-rwxr-xr-x root     shell      252920 2008-08-01 19:00 pppd
+lrwxrwxrwx root     root              2015-09-23 21:24 printenv -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 prlimit -> toolbox
+-rwxr-xr-x root     shell       30008 2008-08-01 19:00 proxy
+lrwxrwxrwx root     root              2015-09-23 21:24 ps -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 r -> toolbox
+-rwxr-xr-x root     shell      330684 2008-08-01 19:00 racoon
+-rwxr-xr-x root     shell        5352 2008-08-01 19:00 radiooptions
+lrwxrwxrwx root     root              2015-09-23 21:24 readlink -> toolbox
+-rwxr-xr-x root     shell        5344 2008-08-01 19:00 reboot
+lrwxrwxrwx root     root              2015-09-23 21:24 renice -> toolbox
+-rwxr-xr-x root     shell         188 2008-08-01 19:00 requestsync
+-rwxr-xr-x root     shell       50404 2008-08-01 19:00 resize2fs
+lrwxrwxrwx root     root              2015-09-23 21:24 restart -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 restorecon -> toolbox
+-rwxr-xr-x root     shell       17864 2008-08-01 19:00 rfc
+-rwxr-xr-x root     shell       13596 2008-08-01 19:00 rild
+lrwxrwxrwx root     root              2015-09-23 21:24 rm -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 rmdir -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 rmmod -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 route -> toolbox
+-rwxr-x--- root     shell        9440 2008-08-01 19:00 run-as
+lrwxrwxrwx root     root              2015-09-23 21:24 runcon -> toolbox
+-rwxr-xr-x root     shell        5348 2008-08-01 19:00 schedtest
+lrwxrwxrwx root     root              2015-09-23 21:24 schedtop -> toolbox
+-rwxr-xr-x root     shell       38168 2008-08-01 19:00 scp
+-rwxr-xr-x root     shell        9444 2008-08-01 19:00 screencap
+-rwxr-xr-x root     shell      112072 2008-08-01 19:00 screenrecord
+-rwxr-xr-x root     shell       42208 2008-08-01 19:00 sdcard
+-rwxr-xr-x root     shell       17928 2008-08-01 19:00 sdptool
+lrwxrwxrwx root     root              2015-09-23 21:24 sendevent -> toolbox
+-rwxr-xr-x root     shell        5352 2008-08-01 19:00 sensorservice
+-rwxr-xr-x root     shell       13564 2008-08-01 19:00 service
+-rwxr-xr-x root     shell       17740 2008-08-01 19:00 servicemanager
+lrwxrwxrwx root     root              2015-09-23 21:24 setenforce -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 setfattr -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 setprop -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 setsebool -> toolbox
+-rwxr-xr-x root     shell         178 2008-08-01 19:00 settings
+-rwxr-xr-x root     shell       83280 2008-08-01 19:00 sftp
+-rwxr-xr-x root     shell      395004 2008-08-01 19:00 sh
+-rwxr-xr-x root     shell       13600 2008-08-01 19:00 showlease
+lrwxrwxrwx root     root              2015-09-23 21:24 sleep -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 smd -> toolbox
+-rwxr-xr-x root     shell      177680 2008-08-01 19:00 ssh
+-rwxr-xr-x root     shell       54572 2008-08-01 19:00 ssh-keygen
+-rwxr-xr-x root     shell      288704 2008-08-01 19:00 sshd
+lrwxrwxrwx root     root              2015-09-23 21:24 start -> toolbox
+-rwxr-xr-x root     shell        1149 2008-08-01 19:00 start-ssh
+lrwxrwxrwx root     root              2015-09-23 21:24 stop -> toolbox
+-rwxr-xr-x root     shell        9448 2008-08-01 19:00 surfaceflinger
+-rwxr-xr-x root     shell         192 2008-08-01 19:00 svc
+lrwxrwxrwx root     root              2015-09-23 21:24 swapoff -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 swapon -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 sync -> toolbox
+-rwxr-xr-x root     shell         116 2008-08-01 19:00 sysinit
+-rwxr-xr-x root     shell      108092 2008-08-01 19:00 tc
+-rwxr-xr-x root     shell       17449 2008-08-01 19:00 testjpegdec
+-rwxr-xr-x root     shell        9424 2008-08-01 19:00 tinycap
+-rwxr-xr-x root     shell        9372 2008-08-01 19:00 tinymix
+-rwxr-xr-x root     shell        9372 2008-08-01 19:00 tinyplay
+-rwxr-xr-x root     shell         190 2008-08-01 19:00 tm
+-rwxr-xr-x root     shell      253396 2008-08-01 19:00 toolbox
+-rwxr-xr-x root     shell        5276 2008-08-01 19:00 toolcommand
+-rwxr-xr-x root     shell        5276 2008-08-01 19:00 toolconnect
+lrwxrwxrwx root     root              2015-09-23 21:24 top -> toolbox
+-rwxr-xr-x root     shell      332936 2008-08-01 19:00 topaz_bin
+lrwxrwxrwx root     root              2015-09-23 21:24 touch -> toolbox
+-rwxr-xr-x root     shell        9508 2008-08-01 19:00 tracepath
+-rwxr-xr-x root     shell       13604 2008-08-01 19:00 tracepath6
+-rwxr-xr-x root     shell       13720 2008-08-01 19:00 traceroute6
+-rwxr-xr-x root     shell       42288 2008-08-01 19:00 tune2fs
+-rwxr-xr-x root     shell        3814 2008-08-01 19:00 uiautomator
+lrwxrwxrwx root     root              2015-09-23 21:24 umount -> toolbox
+-rwxr-x--- root     root        22048 2008-08-01 19:00 uncrypt
+-rwxr-xr-x root     shell       86908 2008-08-01 19:00 update_recovery
+-rwxr-xr-x root     shell      308688 2008-08-01 19:00 upi_ug31xx
+lrwxrwxrwx root     root              2015-09-23 21:24 uptime -> toolbox
+-rwxr-xr-x root     shell        9436 2008-08-01 19:00 vdc
+-rwxr-xr-x root     shell          50 2008-08-01 19:00 vibrator
+lrwxrwxrwx root     root              2015-09-23 21:24 vmstat -> toolbox
+-rwxr-xr-x root     shell      397836 2008-08-01 19:00 vold
+lrwxrwxrwx root     root              2015-09-23 21:24 watchprops -> toolbox
+lrwxrwxrwx root     root              2015-09-23 21:24 wipe -> toolbox
+-rwxr-xr-x root     shell         190 2008-08-01 19:00 wm
+-rwxr-xr-x root     shell      111332 2008-08-01 19:00 wpa_cli
+-rwxr-xr-x root     shell     2133160 2008-08-01 19:00 wpa_supplicant
+lrwxrwxrwx root     root              2015-09-23 21:24 [ -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 [[ -> busybox
+-rwxr-xr-x root     shell      140716 2008-08-01 19:00 add-property-tag
+lrwxrwxrwx root     root              2015-09-23 21:24 adjtimex -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 arp -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 ash -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 awk -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 base64 -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 basename -> busybox
+-rwxr-xr-x root     shell     1104472 2008-08-01 19:00 bash
+lrwxrwxrwx root     root              2015-09-23 21:24 bbconfig -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 blkid -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 blockdev -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 brctl -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 bunzip2 -> busybox
+-rwxr-xr-x root     shell     1308212 2008-08-01 19:00 busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 bzcat -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 bzip2 -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 cal -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 cat -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 catv -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 chattr -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 chcon -> busybox
+-rwxr-xr-x root     shell      189844 2008-08-01 19:00 check-lost+found
+lrwxrwxrwx root     root              2015-09-23 21:24 chgrp -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 chmod -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 chown -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 chroot -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 chvt -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 clear -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 cmp -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 comm -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 cp -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 cpio -> busybox
+-rwxr-xr-x root     shell       13540 2008-08-01 19:00 cpustats
+lrwxrwxrwx root     root              2015-09-23 21:24 crond -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 crontab -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 cut -> busybox
+-rwxr-xr-x root     root       253796 2015-09-24 02:05 daemonsu
+lrwxrwxrwx root     root              2015-09-23 21:24 date -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 dc -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 dd -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 deallocvt -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 depmod -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 devmem -> busybox
+-rwxr-xr-x root     shell      100728 2008-08-01 19:00 dexdump
+lrwxrwxrwx root     root              2015-09-23 21:24 df -> busybox
+-rwxr-xr-x root     shell       60468 2008-08-01 19:00 dhdutil
+lrwxrwxrwx root     root              2015-09-23 21:24 diff -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 dirname -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 dmesg -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 dnsd -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 dos2unix -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 du -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 echo -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 ed -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 egrep -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 env -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 expand -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 expr -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 false -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 fbsplash -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 fdisk -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 fgconsole -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 fgrep -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 find -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 findfs -> busybox
+-rwxr-xr-x root     shell      951660 2008-08-01 19:00 fio
+lrwxrwxrwx root     root              2015-09-23 21:24 flash_lock -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 flash_unlock -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 flashcp -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 flock -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 fold -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 free -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 freeramdisk -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 fstrim -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 fsync -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 ftpget -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 ftpput -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 fuser -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 getenforce -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 getopt -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 getsebool -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 grep -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 groups -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 gunzip -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 gzip -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 halt -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 head -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 hexdump -> busybox
+-rwxr-xr-x root     shell      144460 2008-08-01 19:00 htop
+lrwxrwxrwx root     root              2015-09-23 21:24 hwclock -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 id -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 ifconfig -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 inetd -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 insmod -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 install -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 ionice -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 iostat -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 ip -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 kill -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 killall -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 killall5 -> busybox
+-rwxr-xr-x root     shell       13536 2008-08-01 19:00 ksminfo
+-rwxr-xr-x root     shell       13604 2008-08-01 19:00 latencytop
+lrwxrwxrwx root     root              2015-09-23 21:24 less -> busybox
+-rwsr-sr-x root     root        13824 2008-08-01 19:00 librank
+lrwxrwxrwx root     root              2015-09-23 21:24 ln -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 losetup -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 ls -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 lsattr -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 lsmod -> busybox
+-rwxr-xr-x root     shell      137224 2008-08-01 19:00 lsof
+lrwxrwxrwx root     root              2015-09-23 21:24 lspci -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 lsusb -> busybox
+-rwxr-xr-x root     shell      257644 2008-08-01 19:00 ltrace
+lrwxrwxrwx root     root              2015-09-23 21:24 lzcat -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 lzma -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 lzop -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 lzopcat -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 man -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 matchpathcon -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 md5sum -> busybox
+-rwxr-xr-x root     shell      153004 2008-08-01 19:00 memtrack
+-rwxr-xr-x root     shell       34104 2008-08-01 19:00 memtrack_share
+lrwxrwxrwx root     root              2015-09-23 21:24 mesg -> busybox
+-rwxr-xr-x root     shell       38344 2008-08-01 19:00 micro_bench
+-rwxr-xr-x root     shell      169564 2008-08-01 19:00 micro_bench_static
+lrwxrwxrwx root     root              2015-09-23 21:24 mkdir -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 mke2fs -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 mkfifo -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 mkfs.ext2 -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 mkfs.vfat -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 mknod -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 mkswap -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 mktemp -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 modinfo -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 modprobe -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 more -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 mount -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 mountpoint -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 mpstat -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 mv -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 nanddump -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 nandwrite -> busybox
+-rwxr-xr-x root     shell      137016 2008-08-01 19:00 nano
+lrwxrwxrwx root     root              2015-09-23 21:24 nbd-client -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 netstat -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 nice -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 nmeter -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 nohup -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 nslookup -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 ntpd -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 od -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 openvt -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 patch -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 pgrep -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 pidof -> busybox
+-rwxr-xr-x root     shell      124300 2008-08-01 19:00 pigz
+lrwxrwxrwx root     root              2015-09-23 21:24 ping -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 pipe_progress -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 pkill -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 pmap -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 poweroff -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 printenv -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 printf -> busybox
+-rwsr-sr-x root     root         9440 2008-08-01 19:00 procmem
+-rwsr-sr-x root     root        13600 2008-08-01 19:00 procrank
+lrwxrwxrwx root     root              2015-09-23 21:24 ps -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 pstree -> busybox
+-rwxr-xr-x root     shell        9444 2008-08-01 19:00 puncture_fs
+lrwxrwxrwx root     root              2015-09-23 21:24 pwd -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 pwdx -> busybox
+-rwxr-xr-x root     shell       17664 2008-08-01 19:00 rawbu
+lrwxrwxrwx root     root              2015-09-23 21:24 rdate -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 rdev -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 readlink -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 realpath -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 renice -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 reset -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 resize -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 restorecon -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 rev -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 rm -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 rmdir -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 rmmod -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 route -> busybox
+-rwxr-xr-x root     shell      566296 2008-08-01 19:00 rsync
+lrwxrwxrwx root     root              2015-09-23 21:24 run-parts -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 runcon -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 rx -> busybox
+-rwxr-xr-x root     shell        5352 2008-08-01 19:00 sane_schedstat
+lrwxrwxrwx root     root              2015-09-23 21:24 sed -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 selinuxenabled -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 seq -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 sestatus -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 setconsole -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 setenforce -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 setfiles -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 setkeycodes -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 setsebool -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 setserial -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 setsid -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 sh -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 sha1sum -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 sha256sum -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 sha3sum -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 sha512sum -> busybox
+-rwxr-xr-x root     shell        9440 2008-08-01 19:00 showmap
+-rwxr-xr-x root     shell       13540 2008-08-01 19:00 showslab
+lrwxrwxrwx root     root              2015-09-23 21:24 sleep -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 smemcap -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 sort -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 split -> busybox
+-rwxr-xr-x root     shell       78436 2008-08-01 19:00 sqlite3
+lrwxrwxrwx root     root              2015-09-23 21:24 stat -> busybox
+-rwxr-xr-x root     shell      390600 2008-08-01 19:00 strace
+lrwxrwxrwx root     root              2015-09-23 21:24 strings -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 stty -> busybox
+-rwxr-xr-x root     root       253796 2015-09-24 02:05 su
+-rwxr-xr-x root     root       253796 2015-09-24 02:05 sugote
+-rwxr-xr-x root     root       395004 2015-09-24 02:05 sugote-mksh
+lrwxrwxrwx root     root              2015-09-23 21:24 sum -> busybox
+-rwxr-xr-x root     root        29912 2015-09-24 02:05 supolicy
+lrwxrwxrwx root     root              2015-09-23 21:24 swapoff -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 swapon -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 sync -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 sysctl -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 tac -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 tail -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 tar -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 taskset -> busybox
+-rwxr-xr-x root     shell       13668 2008-08-01 19:00 taskstats
+-rwxr-xr-x root     shell     1255896 2008-08-01 19:00 tcpdump
+lrwxrwxrwx root     root              2015-09-23 21:24 tee -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 telnet -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 telnetd -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 test -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 tftp -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 tftpd -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 time -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 timeout -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 top -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 touch -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 tr -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 traceroute -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 true -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 ttysize -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 tune2fs -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 umount -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 uname -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 uncompress -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 unexpand -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 uniq -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 unix2dos -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 unlzma -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 unlzop -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 unpigz -> pigz
+-rwxr-xr-x root     shell      215180 2008-08-01 19:00 unrar
+lrwxrwxrwx root     root              2015-09-23 21:24 unxz -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 unzip -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 uptime -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 usleep -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 uudecode -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 uuencode -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 vi -> busybox
+-rwxr-xr-x root     shell     1938988 2008-08-01 19:00 vim
+lrwxrwxrwx root     root              2015-09-23 21:24 watch -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 wc -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 wget -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 which -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 whoami -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 xargs -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 xz -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 xzcat -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 yes -> busybox
+lrwxrwxrwx root     root              2015-09-23 21:24 zcat -> busybox
+-rwxr-xr-x root     shell      163980 2008-08-01 19:00 zip
+USER     PID   PPID  VSIZE  RSS     WCHAN    PC        NAME
+root      1     0     1496   1048  ffffffff 00000000 S /init
+root      2     0     0      0     ffffffff 00000000 S kthreadd
+root      3     2     0      0     ffffffff 00000000 S ksoftirqd/0
+root      5     2     0      0     ffffffff 00000000 S kworker/0:0H
+root      7     2     0      0     ffffffff 00000000 S migration/0
+root      8     2     0      0     ffffffff 00000000 S rcu_preempt
+root      9     2     0      0     ffffffff 00000000 S rcu_bh
+root      10    2     0      0     ffffffff 00000000 S rcu_sched
+root      11    2     0      0     ffffffff 00000000 S watchdog/0
+root      12    2     0      0     ffffffff 00000000 S watchdog/1
+root      13    2     0      0     ffffffff 00000000 S migration/1
+root      14    2     0      0     ffffffff 00000000 S ksoftirqd/1
+root      16    2     0      0     ffffffff 00000000 S kworker/1:0H
+root      17    2     0      0     ffffffff 00000000 S watchdog/2
+root      18    2     0      0     ffffffff 00000000 S migration/2
+root      19    2     0      0     ffffffff 00000000 S ksoftirqd/2
+root      21    2     0      0     ffffffff 00000000 S kworker/2:0H
+root      22    2     0      0     ffffffff 00000000 S watchdog/3
+root      23    2     0      0     ffffffff 00000000 S migration/3
+root      24    2     0      0     ffffffff 00000000 S ksoftirqd/3
+root      26    2     0      0     ffffffff 00000000 S kworker/3:0H
+root      27    2     0      0     ffffffff 00000000 S khelper
+root      28    2     0      0     ffffffff 00000000 S writeback
+root      29    2     0      0     ffffffff 00000000 S bioset
+root      30    2     0      0     ffffffff 00000000 S kblockd
+root      31    2     0      0     ffffffff 00000000 S khubd
+root      32    2     0      0     ffffffff 00000000 S md
+root      35    2     0      0     ffffffff 00000000 S cfg80211
+root      36    2     0      0     ffffffff 00000000 S kct_daemon
+root      38    2     0      0     ffffffff 00000000 S rpciod
+root      39    2     0      0     ffffffff 00000000 S msic_adc
+root      40    2     0      0     ffffffff 00000000 S irq/16-msic_adc
+root      44    2     0      0     ffffffff 00000000 S khungtaskd
+root      45    2     0      0     ffffffff 00000000 S kswapd0
+root      46    2     0      0     ffffffff 00000000 S ksmd
+root      47    2     0      0     ffffffff 00000000 S fsnotify_mark
+root      48    2     0      0     ffffffff 00000000 S ecryptfs-kthrea
+root      49    2     0      0     ffffffff 00000000 S nfsiod
+root      50    2     0      0     ffffffff 00000000 S crypto
+root      63    2     0      0     ffffffff 00000000 S kthrotld
+root      65    2     0      0     ffffffff 00000000 S 0000:00:00.2
+root      66    2     0      0     ffffffff 00000000 S 0000:00:02.4
+root      67    2     0      0     ffffffff 00000000 S penwell_otg_que
+root      68    2     0      0     ffffffff 00000000 S penwell_otg_chr
+root      69    2     0      0     ffffffff 00000000 S hall_sensor_wq
+root      70    2     0      0     ffffffff 00000000 S hall_sensor_do_
+root      71    2     0      0     ffffffff 00000000 S dm_bufio_cache
+root      72    2     0      0     ffffffff 00000000 S cfinteractive
+root      74    2     0      0     ffffffff 00000000 S mmcqd/0
+root      75    2     0      0     ffffffff 00000000 S mmcqd/0boot0
+root      76    2     0      0     ffffffff 00000000 S mmcqd/0boot1
+root      77    2     0      0     ffffffff 00000000 S mmcqd/0gp0
+root      78    2     0      0     ffffffff 00000000 S mmcqd/0rpmb
+root      79    2     0      0     ffffffff 00000000 S binder
+root      80    2     0      0     ffffffff 00000000 S hsi-dlp-ctrl_wq
+root      82    2     0      0     ffffffff 00000000 S dsx_exp_workque
+root      83    2     0      0     ffffffff 00000000 S irq/332-kxtj9-i
+root      84    2     0      0     ffffffff 00000000 S CM36283_wq
+root      85    2     0      0     ffffffff 00000000 S irq/5-fw_loggin
+root      86    2     0      0     ffffffff 00000000 S mdm_ctrl-hu_wq0
+root      87    2     0      0     ffffffff 00000000 S irq/300-smb345
+root      88    2     0      0     ffffffff 00000000 S sep_sec-ewq
+root      89    2     0      0     ffffffff 00000000 S hsu_bt_port_p
+root      90    2     0      0     ffffffff 00000000 S hsu_gps_port_p
+root      91    2     0      0     ffffffff 00000000 S hsu_modem_port_
+root      92    2     0      0     ffffffff 00000000 S hsu_debug_port_
+root      93    2     0      0     ffffffff 00000000 S ttm_swap
+root      94    2     0      0     ffffffff 00000000 S dsi_esd
+root      95    2     0      0     ffffffff 00000000 S vsync_delay_tim
+root      96    2     0      0     ffffffff 00000000 S pvr_timer
+root      97    2     0      0     ffffffff 00000000 S mmcqd/1
+root      98    2     0      0     ffffffff 00000000 S pvr_sync_workqu
+root      99    2     0      0     ffffffff 00000000 S irq/66-i2s ssp
+root      100   2     0      0     ffffffff 00000000 S irq/65-i2s ssp
+root      101   2     0      0     ffffffff 00000000 S ssp_transfer_da
+root      102   2     0      0     ffffffff 00000000 S sst_mad_wq
+root      103   2     0      0     ffffffff 00000000 S sst_post_msg_wq
+root      104   2     0      0     ffffffff 00000000 S irq/30-intel_ss
+root      106   2     0      0     ffffffff 00000000 S ssp_transfer_da
+root      107   2     0      0     ffffffff 00000000 S deferwq
+root      108   2     0      0     ffffffff 00000000 S wl_event_handle
+root      109   2     0      0     ffffffff 00000000 S dhd_watchdog_th
+root      110   2     0      0     ffffffff 00000000 S dhd_dpc
+root      111   2     0      0     ffffffff 00000000 S dhd_sysioc
+root      112   2     0      0     ffffffff 00000000 D tput_monitor_ke
+root      113   2     0      0     ffffffff 00000000 S f_mtp
+root      114   2     0      0     ffffffff 00000000 S fwu_workqueue
+root      115   2     0      0     ffffffff 00000000 S file-storage
+root      117   2     0      0     ffffffff 00000000 S irq/67-msic_pow
+root      118   2     0      0     ffffffff 00000000 S irq/36-msic_vdd
+root      119   2     0      0     ffffffff 00000000 S bcu-queue
+root      120   2     0      0     ffffffff 00000000 S asus_battery
+root      121   2     0      0     ffffffff 00000000 S rt5647_wq
+root      124   1     1152   592   ffffffff 00000000 S /sbin/ueventd
+root      128   2     0      0     ffffffff 00000000 S jbd2/mmcblk0p9-
+root      129   2     0      0     ffffffff 00000000 S ext4-dio-unwrit
+root      133   2     0      0     ffffffff 00000000 S f54_status_work
+root      134   2     0      0     ffffffff 00000000 S jbd2/mmcblk0p6-
+root      135   2     0      0     ffffffff 00000000 S ext4-dio-unwrit
+root      136   2     0      0     ffffffff 00000000 S jbd2/mmcblk0p5-
+root      137   2     0      0     ffffffff 00000000 S ext4-dio-unwrit
+root      141   2     0      0     ffffffff 00000000 S jbd2/mmcblk0p10
+root      142   2     0      0     ffffffff 00000000 S ext4-dio-unwrit
+root      143   2     0      0     ffffffff 00000000 S jbd2/mmcblk0p3-
+root      144   2     0      0     ffffffff 00000000 S ext4-dio-unwrit
+root      159   2     0      0     ffffffff 00000000 S irq/94-isp_irq
+logd      173   1     8920   3280  ffffffff 00000000 S /system/bin/logd
+root      174   1     2916   360   ffffffff 00000000 S /sbin/healthd
+root      175   1     3764   1220  ffffffff 00000000 S /system/bin/lmkd
+system    176   1     1960   740   ffffffff 00000000 S /system/bin/servicemanager
+root      177   1     7616   2024  ffffffff 00000000 S /system/bin/vold
+system    178   1     75820  52484 ffffffff 00000000 S /system/bin/surfaceflinger
+system    179   1     620    260   ffffffff 00000000 S /system/bin/upi_ug31xx
+root      181   1     968    176   ffffffff 00000000 S /sbin/watchdogd
+system    182   1     8640   2436  ffffffff 00000000 S /system/bin/nvm_server
+system    184   1     2628   1008  ffffffff 00000000 S /system/bin/akmd09911
+shell     202   1     1968   868   c14f82f0 b769afd6 S /system/bin/sh
+root      203   2     0      0     ffffffff 00000000 S pvr_workqueue
+radio     204   1     38536  3544  ffffffff 00000000 S /system/bin/rild
+radio     206   1     39564  3432  ffffffff 00000000 S /system/bin/rild
+media     207   1     184004 60320 ffffffff 00000000 S /system/bin/mediaserver
+keystore  208   1     6148   2052  ffffffff 00000000 S /system/bin/keystore
+root      210   1     12572  2088  ffffffff 00000000 S /system/bin/netd
+root      211   1     2912   1568  ffffffff 00000000 S /system/bin/debuggerd
+drm       212   1     20924  5872  ffffffff 00000000 S /system/bin/drmserver
+install   213   1     1936   748   ffffffff 00000000 S /system/bin/installd
+system    214   1     2640   628   ffffffff 00000000 S /system/bin/dpstmgr
+system    215   1     10576  4092  ffffffff 00000000 S /system/bin/mmgr
+root      218   1     1516860 55056 ffffffff 00000000 S zygote
+media_rw  220   1     4368   1188  ffffffff 00000000 S /system/bin/sdcard
+root      227   1     596    252   ffffffff 00000000 S daemonsu:mount:master
+root      229   2     0      0     ffffffff 00000000 S dpst-wq
+root      237   2     0      0     ffffffff 00000000 S kauditd
+root      307   1     5724   300   ffffffff 00000000 S daemonsu:master
+root      327   2     0      0     ffffffff 00000000 S kworker/0:1H
+root      419   2     0      0     ffffffff 00000000 S kworker/1:1H
+root      472   2     0      0     ffffffff 00000000 S kworker/2:1H
+root      475   2     0      0     ffffffff 00000000 S kworker/3:1H
+system    572   218   1769764 161780 ffffffff 00000000 S system_server
+u0_a22    822   218   1636796 130204 ffffffff 00000000 S com.android.systemui
+u0_a25    933   218   1556916 38156 ffffffff 00000000 S com.google.android.googlequicksearchbox:interactor
+u0_a46    957   218   1566068 71168 ffffffff 00000000 S com.android.inputmethod.latin
+u0_a15    1011  218   1521196 33964 ffffffff 00000000 S org.omnirom.omniswitch
+root      1019  2     0      0     ffffffff 00000000 S irq/318-synapti
+u0_a0     1038  218   1522976 36164 ffffffff 00000000 S org.cyanogenmod.audiofx
+system    1060  218   1528088 37236 ffffffff 00000000 S com.intel.thermal
+u0_a6     1090  218   1520400 32556 ffffffff 00000000 S com.android.incallui
+radio     1111  218   1595064 96148 ffffffff 00000000 S com.android.phone
+u0_a9     1296  218   1649208 70440 ffffffff 00000000 S com.google.android.gms.persistent
+u0_a64    1423  218   1520376 31944 ffffffff 00000000 S com.android.smspush
+media_rw  1490  1     5044   1796  ffffffff 00000000 S /system/bin/sdcard
+u0_a69    1909  218   1543544 52596 ffffffff 00000000 S com.asus.weathertime:main
+u0_a9     2006  218   1524716 34804 ffffffff 00000000 S com.google.process.location
+root      2128  307   2648   332   ffffffff 00000000 S daemonsu:10091
+u0_a66    2149  218   1556340 50656 ffffffff 00000000 S com.asus.launcher:AppLockHost
+u0_a66    2181  218   1619516 105596 ffffffff 00000000 S com.asus.launcher
+root      2307  307   3672   332   ffffffff 00000000 S daemonsu:1000
+u0_a25    2397  218   1586764 64464 ffffffff 00000000 S com.google.android.googlequicksearchbox:search
+u0_a39    2510  218   1543000 40096 ffffffff 00000000 S com.android.email
+u0_a36    2862  218   1523968 33536 ffffffff 00000000 S com.android.deskclock
+root      3254  2     0      0     ffffffff 00000000 S kworker/3:1
+root      3491  2     0      0     ffffffff 00000000 S kworker/2:2
+root      3864  2     0      0     ffffffff 00000000 S kworker/u8:3
+u0_a76    4823  218   1596500 51784 ffffffff 00000000 S com.google.android.apps.maps
+u0_a91    4972  218   1554340 69064 ffffffff 00000000 S eu.chainfire.supersu
+root      5277  307   5720   344   ffffffff 00000000 S daemonsu:10084
+shell     5550  1     4908   348   ffffffff 00000000 R /sbin/adbd
+root      5596  2     0      0     ffffffff 00000000 S kworker/2:0
+u0_a3     5710  218   1520976 33144 ffffffff 00000000 S com.android.cellbroadcastreceiver
+u0_a51    5770  218   1542588 62872 ffffffff 00000000 S com.rr.ota
+u0_a9     5824  218   1635768 65580 ffffffff 00000000 S com.google.android.gms
+u0_a9     5852  218   1620236 45100 ffffffff 00000000 S com.google.android.gms.wearable
+u0_a79    5885  218   1587616 89716 ffffffff 00000000 S com.quoord.tapatalkpro.activity
+root      6031  2     0      0     ffffffff 00000000 S kworker/3:2
+root      6094  2     0      0     ffffffff 00000000 S kworker/0:7
+root      6096  2     0      0     ffffffff 00000000 S kworker/0:9
+root      6104  2     0      0     ffffffff 00000000 S kworker/u8:9
+root      6105  2     0      0     ffffffff 00000000 S kworker/1:4
+root      6106  2     0      0     ffffffff 00000000 S kworker/1:5
+u0_a14    6115  218   1542724 41408 ffffffff 00000000 S com.android.mms
+u0_a85    6162  218   1540356 38084 ffffffff 00000000 S com.android.chrome
+u0_a74    6298  218   1546748 43376 ffffffff 00000000 S com.estrongs.android.pop
+u0_a74    6333  6298  2592   516   ffffffff 00000000 S /data/data/com.estrongs.android.pop/files/libestool2.so
+dhcp      6343  1     1856   828   ffffffff 00000000 S /system/bin/dhcpcd
+u0_a73    6438  218   1688064 61996 ffffffff 00000000 S com.google.android.youtube
+gps       6687  1     15116  3280  ffffffff 00000000 S /system/bin/gpsd
+u0_a2     6766  218   1522996 36136 ffffffff 00000000 S com.android.providers.calendar
+u0_a32    6791  218   1531620 37700 ffffffff 00000000 S com.android.calendar
+root      6975  2     0      0     ffffffff 00000000 S kworker/1:0
+root      7032  2     0      0     ffffffff 00000000 S kworker/0:0
+root      7033  2     0      0     ffffffff 00000000 S kworker/0:1
+root      7099  307   6752   392   ffffffff 00000000 S daemonsu:0
+root      7120  2     0      0     ffffffff 00000000 S kworker/u8:0
+root      7129  2     0      0     ffffffff 00000000 S kworker/u8:1
+u0_a85    7132  218   1538136 35464 ffffffff 00000000 S com.android.chrome:privileged_process1
+root      8640  2     0      0     ffffffff 00000000 S kworker/2:1
+root      8647  2     0      0     ffffffff 00000000 S kworker/3:0
+root      8657  2     0      0     ffffffff 00000000 S kworker/u8:2
+shell     8658  5550  3824   992   00000000 b76a9fd6 R ps
+root      9604  307   4696   340   ffffffff 00000000 S daemonsu:10074
+root      9640  1     1596   652   ffffffff 00000000 S /data/data/com.estrongs.android.pop/files/libestool2.so
+u0_a49    10649 218   1529960 40492 ffffffff 00000000 S com.cyanogenmod.lockclock
+u0_a9     13486 218   1666400 93728 ffffffff 00000000 S com.google.process.gapps
+bluetooth 20047 218   1540808 44540 ffffffff 00000000 S com.android.bluetooth
+wifi      23436 1     7204   3208  ffffffff 00000000 S /system/bin/wpa_supplicant
+u0_a57    30878 218   1522448 33948 ffffffff 00000000 S com.svox.pico
+root      32067 2     0      0     ffffffff 00000000 S kworker/u8:7
+u0_a4     32524 218   1532168 43232 ffffffff 00000000 S android.process.acore
+u0_a7     32627 218   1529024 40284 ffffffff 00000000 S android.process.media

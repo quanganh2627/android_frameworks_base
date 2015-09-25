@@ -274,12 +274,6 @@ public class KeyguardStatusBarView extends RelativeLayout {
     }
 
     @Override
-<<<<<<< HEAD
-    public void onDetachedFromWindow() {
-        super.onDetachedFromWindow();
-    }
-
-=======
     protected void onDetachedFromWindow() {
         super.onDetachedFromWindow();
         if (mUserInfoController != null) {
@@ -287,5 +281,4 @@ public class KeyguardStatusBarView extends RelativeLayout {
             mUserInfoController = null;
         }
     }
->>>>>>> a10c2273add826bd9f8e115b2a9381653b6fee93
 }
